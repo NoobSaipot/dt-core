@@ -18,7 +18,7 @@ from lane_controller.controller import LaneController
 class LaneControllerNode(DTROS):
     """Computes control action.
     The node compute the commands in form of linear and angular velocities, by processing the estimate error in
-    lateral deviationa and heading.
+    lateral deviation and heading.
     The configuration parameters can be changed dynamically while the node is running via ``rosparam set`` commands.
     Args:
         node_name (:obj:`str`): a unique, descriptive name for the node that ROS will use
